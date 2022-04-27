@@ -18,6 +18,7 @@ jobs:
         with:
           osg_series: ${{ matrix.osg_series }}
           repo: ${{ matrix.yum_repo }}
+          cache: false
 
   # push:
   #   runs-on: ubuntu-latest
